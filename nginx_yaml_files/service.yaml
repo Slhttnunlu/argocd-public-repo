@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
-metada:
-  lebels:
+metadata:
+  labels:
     app: nginx-deployment
   name: nginx-service
   namespace: default
